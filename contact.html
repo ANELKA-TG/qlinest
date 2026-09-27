@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qlinest — Contact Us</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <section class="hero contact-hero">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-icon"> <img src="./assets/logo.png" alt=""> </span> Qlinest
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+      </ul>
+     </nav>
+
+    <div class="contact-hero-copy">
+      <span class="eyebrow-pill">CONTACT US</span>
+      <h1>Send Us A Message</h1>
+      <p>We take pride in our meticulous attention to detail and unwavering commitment to customer satisfaction.</p>
+    </div>
+  </section>
+
+  <section class="contact-info">
+    <div class="contact-details">
+      <h2>Contact Details</h2>
+      <p>Reach out to our friendly team through your preferred method — whether it's a quick message, a phone call, or a form submission.</p>
+
+      <div class="detail-item">
+        <h5>Email</h5>
+        <p>hello@qlinest.co</p>
+      </div>
+      <div class="detail-item">
+        <h5>Phone</h5>
+        <p>+62 812-3456-7890</p>
+      </div>
+      <div class="detail-item">
+        <h5>Office</h5>
+        <p>Qlinest HQ, Jl. Kemang Raya No. 21, Jakarta Selatan, Indonesia</p>
+      </div>
+      <div class="detail-item">
+        <h5>Working Hours</h5>
+        <p>Monday – Saturday | 08:00 AM – 06:00 PM</p>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <label for="fullname">Fullname</label>
+      <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="ex@mail.com" required>
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject" required>
+        <option value="" disabled selected>Select Your Subject</option>
+        <option value="general">General Inquiry</option>
+        <option value="booking">Booking a Service</option>
+        <option value="support">Customer Support</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <div class="toast" id="successToast">
+  <span class="toast-icon"> </span>
+  <span>Thanks! Message sent.</span>
+</div> 
+
+    <section class="FAQs">
+    <h4>FAQ</h4>
+    <h1>Got Questions?</h1>
+    <p>We've got answers to your most common cleaning concerns</p>
+   
+    <div class="questions" id="faqList">
+        <div class="question">
+            <div class="question-head">
+                <h5>Do I need to be home during the cleaning?</h5>
+                <span class="toggle-icon">+</span>
+            </div>
+            <p>No. As long as we have access , you can carry on with your day</p>
+        </div>
+        <div class="question">
+            <div class="question-head">
+                <h5>Are your cleaning products safe for pets and kids?</h5>
+                <span class="toggle-icon">+</span>
+            </div>
+            <p>Yes, all our products are non-toxic and safe for children and pets.</p>
+        </div>
+        <div class="question">
+            <div class="question-head">
+                <h5>What happens if I'm not satisfied with the cleaning?</h5>
+                <span class="toggle-icon">+</span>
+            </div>
+            <p>We'll come back and re-clean the area at no extra cost to you.</p>
+        </div>
+        <div class="question">
+            <div class="question-head">
+                <h5>Can I schedule recurring services?</h5>
+                <span class="toggle-icon">+</span>
+            </div>
+            <p>Yes, you can set up weekly, bi-weekly, or monthly cleanings.</p>
+        </div>
+        <div class="question">
+            <div class="question-head">
+                <h5>Is there a cancellation fee?</h5>
+                <span class="toggle-icon">+</span>
+            </div>
+            <p>No cancellation fee if you cancel at least 24 hours in advance.</p>
+        </div>
+    </div>
+
+  </section>
+
+<footer class="footer">
+
+<div class="stay"> 
+    <div>
+    <h2>Stay In The Loop With Qlinnest</h2>
+    <p>Receive cleaning tips, exclusive deals and seasonal updates right in your inbox.</p>
+    </div>
+    <div class="stayaction">
+       <input type="text" placeholder="enter your email" id="textarea">
+        <button id="textarea1">Enter</button>
+    </div>
+</div>
+
+<div class="foot-navy">
+    <span class="footnav">
+         <img src="/assets/blacklogog.png" alt="">Qlinest 
+    </span>
+      <ul class="footnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>    
+</div>
+
+<div class="bottom">
+    <div class="footnav"> &copy; <p>2025 Qlinest. All rights reserved.</p>  </div>
+    <div class="footnav">
+        <h2>FB</h2>
+        <h2>IN</h2>
+        <h2>IG</h2>
+    </div>
+    <div class="footnav"><p>Privacy & Policy</p> <p>Help Center</p></div>
+</div>
+
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
